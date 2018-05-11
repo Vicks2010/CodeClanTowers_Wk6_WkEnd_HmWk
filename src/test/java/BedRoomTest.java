@@ -11,12 +11,12 @@ public class BedRoomTest {
 
     public void before(){
 
-        bedRoom = new BedRoom(5, "Single", 8);
+        bedRoom = new BedRoom(5, BedRoomType.SINGLE, 8);
     }
 
     @Test
 
     public void hasRoomNo(){
-        assertEquals(5, bedRoom.roomNo());
+        assertEquals(5, bedRoom.getRoomNo());
     }
 }
