@@ -12,7 +12,7 @@ public class BedRoomTest {
 
     public void before(){
 
-        bedRoom = new BedRoom(5, BedRoomType.SINGLE, 18.00);
+        bedRoom = new BedRoom(5, BedRoomType.SINGLE, 18.00, 1);
     }
 
     @Test
@@ -28,7 +28,7 @@ public class BedRoomTest {
 
     @Test
     public void hasNightlyRate(){
-        assertEquals(18.00, bedRoom.getNightlyRate());
+        assertEquals(18.00, bedRoom.getNightlyRate(), 0.01);
 
     }
 }

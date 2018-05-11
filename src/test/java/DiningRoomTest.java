@@ -10,7 +10,7 @@ public class DiningRoomTest {
     @Before
 
     public void before(){
-        diningRoom = new DiningRoom(0);
+        diningRoom = new DiningRoom(0, 50);
     }
 
     @Test

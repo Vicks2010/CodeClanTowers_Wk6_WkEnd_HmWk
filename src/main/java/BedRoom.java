@@ -6,8 +6,9 @@ public class BedRoom extends Room{
 //    private String bedRoomType;
     private double nightlyRate;
 
-    public BedRoom (int roomNo, BedRoomType bedRoomType, double nightlyRate){
+    public BedRoom (int roomNo, BedRoomType bedRoomType, double nightlyRate, int capacity){
 
+        super(capacity);
         this.roomNo = roomNo;
         this.bedRoomType = bedRoomType;
         this.nightlyRate = nightlyRate;

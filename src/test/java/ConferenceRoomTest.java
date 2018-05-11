@@ -11,7 +11,7 @@ public class ConferenceRoomTest{
 
     public void before(){
 
-        conferenceRoom = new ConferenceRoom("ConferenceRm 1", 55);
+        conferenceRoom = new ConferenceRoom("ConferenceRm 1", 55, 37);
     }
 
     @Test

@@ -5,9 +5,9 @@ public abstract class Room {
     private int capacity;
     private ArrayList<Integer> guests;
 
-    public Room() {
-        this.capacity  = 0;
-    }
+//    public Room() {
+//        this.capacity  = 0;
+//    }
 
     public Room(int capacity){
 
