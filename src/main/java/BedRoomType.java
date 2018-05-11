@@ -1,4 +1,4 @@
-public enum BedroomType {
+public enum BedRoomType {
 
     SINGLE,
     DOUBLE
