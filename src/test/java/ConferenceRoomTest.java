@@ -15,8 +15,12 @@ public class ConferenceRoomTest{
     }
 
     @Test
-
     public void hasName(){
         assertEquals("ConferenceRm 1", conferenceRoom.getName());
+    }
+
+    @Test
+    public void hasDailyRate(){
+        assertEquals(55, conferenceRoom.getDailyRate());
     }
 }

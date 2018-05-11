@@ -15,9 +15,9 @@ properties/methods of their own,
 (HINT you may wish to use an enum for the bedroom types with each entry having a
 value for the room capacity)
 
-Conference rooms which have a name and a daily rate.
+>Conference rooms which have a name and a daily rate.
 
-Bedrooms and Conference rooms will be chargeable while others (e.g. dining rooms) may not.
+>Bedrooms and Conference rooms will be chargeable while others (e.g. dining rooms) may not.
 
 Create a Guest class so that guests can be checked in/out of rooms.
 

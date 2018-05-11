@@ -7,9 +7,14 @@ public class ConferenceRoom extends Room{
 
         this.name = name;
         this.dailyRate = dailyRate;
+//        dailyRate = 55;
     }
 
     public String getName() {
         return name;
+    }
+
+    public int getDailyRate(){
+        return dailyRate;
     }
 }

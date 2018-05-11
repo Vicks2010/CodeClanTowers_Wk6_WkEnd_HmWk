@@ -16,4 +16,12 @@ public class BedRoom extends Room{
     public int getRoomNo() {
         return roomNo;
     }
+
+    public BedRoomType getBedRoomType(){
+        return bedRoomType;
+    }
+
+    public double getNightlyRate() {
+        return nightlyRate;
+    }
 }
